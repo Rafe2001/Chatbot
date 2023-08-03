@@ -1,0 +1,99 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi"],
+            "responses": ["Hi, Welcome to tag8."]
+        },
+        {
+            "tag": "activate_tag",
+            "patterns": ["I want to activate/register a tag"],
+            "responses": ["Sure, May I know which tag you have bought?"]
+        },
+        {
+            "tag": "tag_types",
+            "patterns": ["Key tag / Bag tag / Asset security tag"],
+            "responses": ["Kindly send us your Full name / Email-id / Contact No. to register your tag"]
+        },
+        {
+            "tag": "passport_case",
+            "patterns": ["Passport case"],
+            "responses": ["Kindly send us your Full name / Email-id / Contact No. / passport no. / passport expiry date to register your tag"]
+        },
+        {
+            "tag": "connect_dolphin_tracker",
+            "patterns": ["How to connect Dolphin tracker"],
+            "responses": ["Kindly install 'Dolphin Tracker' app from Google Play Store / iOS App Store and follow the steps"]
+        },
+        {
+            "tag": "tracker_connection_issue",
+            "patterns": ["Couldn't connect Dolphin tracker to the app"],
+            "responses": ["When installing the app, please make sure that all of the permissions have been granted."]
+        },
+        {
+            "tag": "separation_alarm_issue",
+            "patterns": ["Not getting separation alarm in Phone / Tracker"],
+            "responses": ["Please enable notification from the app settings for the dolphin tracker."]
+        },
+        {
+            "tag": "tracker_reconnect_issue",
+            "patterns": ["The tracker does not reconnect after being disconnected."],
+            "responses": ["Please restart your Bluetooth and check once more."]
+        },
+        {
+            "tag": "verification_email_issue",
+            "patterns": ["Not received verification e-mail"],
+            "responses": ["If you didn't receive the verification email while creating an account, kindly check your spam folder as well."]
+        },
+        {
+            "tag": "activate_pet_tag",
+            "patterns": ["How to activate genie pet tag"],
+            "responses": ["Please register at https://dashboard.tag8.in/#/login or by scanning the QR code on the pet tag, which will direct you to the registration page."]
+        },
+        {
+            "tag": "lost_phone_issue",
+            "patterns": ["I have lost my phone"],
+            "responses": ["Had your lost phone a 'Find my phone digital tag' app installed?"]
+        },
+        {
+            "tag": "lost_phone_email",
+            "patterns": ["If Yes then Kindly send us your registered Email-id with 'Find my phone digital tag' app"],
+            "responses": ["If not, kindly file a complaint at the local police station."]
+        },
+        {
+            "tag": "connect_smart_padlock",
+            "patterns": ["Couldn't connect Smart padlock to Dolphin tracker"],
+            "responses": ["When installing the app, please make sure that all of the permissions have been granted."]
+        },
+        {
+            "tag": "padlock_charge",
+            "patterns": ["If you're using the padlock for the first time, please charge it for 4–5 hours."],
+            "responses": []
+        },
+        {
+            "tag": "unlock_morse_code_issue",
+            "patterns": ["Unable to Unlock using Morse code"],
+            "responses": ["Please send us the screen recording so we can assist you further"]
+        },
+        {
+            "tag": "unlock_app_issue",
+            "patterns": ["Unable to Unlock using App"],
+            "responses": ["Please send us the screen recording so we can assist you further"]
+        },
+        {
+            "tag": "gps_location_issue",
+            "patterns": ["App not showing the exact GPS location"],
+            "responses": ["Kindly check the location services option from location settings and enable all options to improve accuracy"]
+        },
+        {
+            "tag": "tracker_power_issue",
+            "patterns": ["Tracker not turning on"],
+            "responses": ["DOLPHIN tracker uses a replaceable coin/button battery (model CR2016). The battery can be replaced simply by opening the case and using the notch to pull it open. Remove the old battery and slip in a new battery."]
+        },
+        {
+            "tag": "unresponsive_padlock_issue",
+            "patterns": ["Unresponsive padlock"],
+            "responses": ["If you're using the padlock for the first time, please charge it for 4–5 hours."]
+        }
+    ]
+}
