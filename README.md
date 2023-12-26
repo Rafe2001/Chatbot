@@ -1,6 +1,4 @@
 # Custom Chatbot using Deep Learning 
-Certainly! Here's a template for a GitHub README for your chatbot project:
-
 Welcome to the Chatbot Project repository! This project aims to develop a simple chatbot that interacts with users and provides relevant responses based on predefined intents. The chatbot is built using Python and utilizes machine learning techniques for natural language processing.
 
 ## Table of Contents
